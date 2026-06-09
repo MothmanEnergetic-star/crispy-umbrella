@@ -1,0 +1,64 @@
+{
+  "integrations": [
+    {
+      "name": "HubSpot",
+      "type": "CRM",
+      "fields": [
+        "first_name",
+        "last_name",
+        "email",
+        "phone",
+        "company",
+        "job_title",
+        "lead_source",
+        "status"
+      ]
+    },
+    {
+      "name": "GoHighLevel",
+      "type": "CRM",
+      "fields": [
+        "first_name",
+        "last_name",
+        "email",
+        "phone",
+        "company",
+        "stage",
+        "lead_source",
+        "appointment_date"
+      ]
+    },
+    {
+      "name": "Clearbit",
+      "type": "Enrichment",
+      "fields": [
+        "company_name",
+        "industry",
+        "employee_count",
+        "revenue_range",
+        "technologies"
+      ]
+    },
+    {
+      "name": "Apollo",
+      "type": "Enrichment",
+      "fields": [
+        "email",
+        "job_title",
+        "company_size",
+        "linkedin_profile"
+      ]
+    },
+    {
+      "name": "Calendly",
+      "type": "Booking",
+      "fields": [
+        "event_type",
+        "start_time",
+        "end_time",
+        "invitee_email",
+        "confirmation_status"
+      ]
+    }
+  ]
+}

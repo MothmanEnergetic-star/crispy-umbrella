@@ -1,0 +1,63 @@
+{
+  "pricing_model": {
+    "setup_tiers": [
+      {
+        "tier": "Startup",
+        "setup_cost": 2000,
+        "description": "Single integration, basic configuration",
+        "includes": [
+          "CRM connection (HubSpot or GHL)",
+          "Email integration",
+          "3 outreach templates",
+          "Basic lead enrichment"
+        ]
+      },
+      {
+        "tier": "Growth",
+        "setup_cost": 5000,
+        "description": "Multiple integrations, advanced configuration",
+        "includes": [
+          "CRM + email + LinkedIn + SMS",
+          "Custom scoring rules",
+          "10 outreach templates",
+          "Full lead enrichment",
+          "Calendly booking",
+          "Basic reporting"
+        ]
+      },
+      {
+        "tier": "Enterprise",
+        "setup_cost": 10000,
+        "description": "Full customization, dedicated support",
+        "includes": [
+          "All integrations",
+          "Custom agent training",
+          "Unlimited templates",
+          "Advanced analytics",
+          "Custom workflows",
+          "Dedicated account manager"
+        ]
+      }
+    ],
+    "monthly_recurring": [
+      {
+        "tier": "Startup",
+        "monthly": 500,
+        "leads_per_month": 500,
+        "cost_per_lead": 1.0
+      },
+      {
+        "tier": "Growth",
+        "monthly": 1500,
+        "leads_per_month": 2000,
+        "cost_per_lead": 0.75
+      },
+      {
+        "tier": "Enterprise",
+        "monthly": 3000,
+        "leads_per_month": 5000,
+        "cost_per_lead": 0.6
+      }
+    ]
+  }
+}
